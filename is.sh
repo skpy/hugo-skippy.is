@@ -35,7 +35,7 @@ for FILE in $DIR; do
       slug=$(grep '^permalink: ' ${SOURCEFILE} | cut -d ' ' -f 2-)
       title=$(grep '^title: ' ${SOURCEFILE} | cut -d ' ' -f 2-)
       mv ${SOURCEFILE} ${DESTDIR}content/;
-      chmod 644 ${DESTDIR}${FILE}
+      chmod 644 ${DESTDIR}content/${FILE}
       cd ${DESTDIR}
       /home/skippy/bin/hugo
       /usr/bin/rsync -aqz ${DESTDIR}public/ ${RSYNCTARGET}
