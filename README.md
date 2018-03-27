@@ -1,9 +1,10 @@
 skippy.is automation
 
-#DEPRECATED
+# DEPRECATED
 This setup has been updated and documented at my [micropub](https://github.com/skpy/micropub) repo.  Check that for the current setup.
 
 ---
+
 This is a slightly sanitized version of the scripts I've put together to make posting to [skippy.is](https://skippy.is/) easy to do from my phone.
 
 ## Requirements
